@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+
+@theme {
+  --font-nonito: 'Nunito Sans', sans-serif;
+  --font-ancizar: 'Ancizar Sans', sans-serif;
+  --color-primary: #3b61eb;
+  --color-foreground: #fff;
+  --color-background: #fbfcfe;
+  --color-copy: #6b7790;
+  --color-copyLight: #a5abc0;
+  --color-copyDark: #0b2b4a;
+  --color-grey: #6b7790;
+  --color-lightGrey: #a5abc0;
+  --color-light: #edeff3;
+  --color-borderLight: #e9e9ed;
+  --color-yellow: #f2ac13;
+  --color-green: #4fac68;
+  --color-lighterGrey: #e1e3ea;
+  --color-error: #d52c24;
+}
