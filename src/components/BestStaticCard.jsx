@@ -13,7 +13,7 @@ const BestStaticCard = ({ catalogName, genreName, data }) => {
     <section className="w-full py-10 text-copyDark">
       <div className="flex flex-col gap-6">
         <h1 className="text-2xl sm:text-3xl font-semibold text-gray-800">
-          {catalogName} {genreName} books on Pango
+          Eng yaxshi kitoblar
         </h1>
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 lg:gap-6 gap-3">
           {loading ?

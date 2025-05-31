@@ -17,7 +17,15 @@ const Sarguzasht = () => {
   return (
     <div>
       <div className='lg:py-10 py-8 lg:px-15 px-5'>
-        <div><HeaderTop h1={'Young Adult Fiction on PangoBooks'} h2={'Explore a huge range of young adult books at unbeatable prices. '} span={'Young adult fiction—also known as "YA"—has become one of the most popular book genres in the world in recent years. This diverse category refers to any book or series intended for a teenage audience. Typically, these books feature coming-of-age stories in which characters must face challenges related to identity, purpose, and belonging. These themes are common regardless of whether the story includes fantasy elements or is realistic fiction.'} span2={'Make no mistake. YA is widely read and enjoyed by readers of all ages. In fact, according to some sources, more than half of YA readers are not young adults at all. Readers embrace YA for its captivating and emotionally-driven storytelling, relatable characters, and approachable language. '} span3={'Whether you’re 15 or 50, there’s a wide range of young adult literature for you to uncover on PangoBooks. Peruse this page for bestsellers, amazing deals, and other Pango picks.'} /></div>
+        <div>
+          <HeaderTop
+            h1={'PangoBooksdagi Sarguzasht Kitoblar Katalogi'}
+            h2={'Hayajon, jasorat va kutilmagan burilishlarga to‘la sarguzasht romanlarini kashf eting.'}
+            span={'Sarguzasht janri – bu yuragingizni tez urdirmaydigan, sizni yangi dunyolar, nomaʼlum hududlar va xavf-xatar bilan to‘la yo‘llarga yetaklamaydigan kitoblar toifasi emas. Bu janr sizni qahramonlar bilan birga cho‘llar, o‘rmonlar, qadimiy xarobalar, yoki hatto boshqa qitʼalarga olib chiqadi. Ular doimo biror narsa izlaydi – baʼzan yo‘qolgan xazina, baʼzan o‘zini anglash, baʼzan esa dunyoni qutqarish. Har bir sahifa yangi sarguzasht, yangi qaror va yangi xavfni olib keladi.'}
+            span2={'Sarguzasht romanlari o‘quvchini o‘qiganida hodisalar ichiga tortib oladi – siz nafaqat hikoyani o‘qiysiz, balki uni his qilasiz. Siz bilan birga qahramonlar dushmanlarga qarshi kurashadi, do‘stlikni qadrlaydi, xatolardan saboq oladi va katta jasorat bilan oldinga boradi. Bu janr yosh bolalar uchun yozilgan engil hikoyalardan tortib, kattalarga mo‘ljallangan murakkab va falsafiy sarguzashtlargacha bo‘lgan keng ko‘lamni o‘z ichiga oladi. Indiana Jones, Tintin, Hatiko yoki Percy Jackson kabi mashhur sarguzashtlar bu janrning mashhurligini isbotlab turibdi.'}
+            span3={'Agar siz hayotingizga ozgina hayajon, ozgina sir va ko‘p miqdorda sarguzasht qo‘shmoqchi bo‘lsangiz – PangoBooksdagi sarguzasht kitoblar to‘plami aynan siz izlagan narsa. Bestseller romanlar, sarguzasht trilogiyalar, qiziqarli sayohatlar va tarixiy ekspeditsiyalar haqidagi asarlar sizni kutmoqda. Bugunoq o‘zingiz uchun bir sarguzasht boshlang – sahifani oching va sarguzasht olamiga sho‘ng‘ing!'}
+          />
+        </div>
         <BestStaticCard catalogName={'Jaslar'} genreName={'Tez'} data={selectedBook} />
       </div>
       <div>

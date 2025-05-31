@@ -129,7 +129,7 @@ const CardDetail = () => {
         {/* Right section */}
         <div className="w-full lg:w-1/3 sticky top-0 self-start bg-white rounded-2xl shadow-lg p-6 md:p-8 flex flex-col gap-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-            Citata
+            Fraza
           </h2>
 
           <p className="text-gray-700 leading-relaxed text-base md:text-lg line-clamp-6">

@@ -70,7 +70,7 @@ const Header = () => {
         <div className="flex items-center gap-3 sm:gap-4 lg:gap-6">
           <span className="text-lg sm:text-xl flex items-center gap-3 lg:text-2xl font-semibold text-gray-800">
             <BookOpenText size={50} />
-            pangobooks
+            OnlineKitob
           </span>
 
           {/* Search input (desktop only) */}
@@ -209,9 +209,9 @@ const Header = () => {
 
         <div className="h-4 w-px bg-gray-300 mx-1" />
 
-        <span className="hover:bg-gray-100 lg:px-10 px-1 py-2 rounded-full transition cursor-pointer">
-          Blog
-        </span>
+        <NavLink to={"/contact"} className="hover:bg-gray-100 lg:px-10 px-1 py-2 rounded-full transition cursor-pointer">
+          Aloqa
+        </NavLink>
       </div>
     </header>
   );

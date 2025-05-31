@@ -16,6 +16,7 @@ import Likes from './pages/Likes';
 import LoginForm from './components/LoginForm';
 import SignUpForm from './components/SignUpForm';
 import SearchResult from './pages/SearchPage';
+import Contact from './pages/Contact';
 const App = () => {
   const dispatch = useDispatch();
   const modalLoginForm = useSelector((state) => state.uiSlice.showLoginModal);
@@ -39,6 +40,7 @@ const App = () => {
         <Route path='Realistik' element={<Realistik />} />
         <Route path='likes' element={<Likes />} />
         <Route path="search" element={<SearchResult />} />
+        <Route path='contact' element={<Contact />} />
       </Route>
     )
   );
