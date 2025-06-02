@@ -7,7 +7,7 @@ export const navbarList = [
   },
   {
     id: 2,
-    title: "Qiyal",
+    title: "Hayoliy",
     url: "/Qiyal",
   },
   {
